@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  import common-scoreboard
+  script
+    subscriber();

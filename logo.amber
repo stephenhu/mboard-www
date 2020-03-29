@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div.mdc-layout-grid
+    div.mdc-layout-grid__inner
+      div.mdc-layout-grid__cell--span-12.mdc-layout-grid__cell--align-middle.shade
+        h3.align-center mboard
+        h4.blue.align-center by madsportslab
+  script
+    subscriber();

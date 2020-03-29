@@ -1,0 +1,155 @@
+/* mboard.css */
+
+html {
+  font-family: sans-serif;
+  font-weight: 200;
+  height: 100%;
+  
+}
+
+body {
+  background: -webkit-linear-gradient( top, #204060, #005994 );
+  background: -moz-linear-gradient( top, #204060, #005994 );
+  height: 100%;
+  color: #ffffff;
+}
+
+a, a:visited, a:hover, a:link {
+  text-decoration: none;
+  font-weight: 200;
+}
+
+
+h1 {
+  font-weight: 200;
+  font-size: 40em;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 30em;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 10em;
+  padding: 0px;
+  margin: 0px;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: 5em;
+  padding: 0px;
+  margin: 0px;
+}
+
+h5 {
+  font-weight: 200;
+  font-size: 3em;
+  padding: 0px;
+  margin: 0px;
+}
+
+small {
+  font-weight: 200;
+  font-size: 3em;
+}
+
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+}
+
+/* custom classes */
+
+.logo {
+  text-align: center;
+  z-index: -1;
+  opacity: .3;
+  color: #ffffff;
+}
+
+.big {
+  font-size: 18em;
+}
+
+.medium {
+  font-size: 12em;
+}
+
+.small {
+  font-size: 5em;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.blue-shade {
+  background-color: #204060;
+}
+
+.green {
+  color: #00dd00;
+}
+
+.red {
+  color: #aa0000;
+}
+
+.blue {
+  color: #2d5986;
+}
+
+.light-blue {
+  color: #0096fa;
+}
+
+.primary {
+  color: #00dd00;
+}
+
+.primary-light {
+  color: #ffffff;
+}
+
+.secondary {
+  color: #2d5986;
+}
+
+.possession {
+  background-color:#0096fa;
+  color: #222222;
+  border-radius: 10px;
+}
+
+.border1 {
+  border: 1px solid #538cc6;
+  border-radius: 10px;
+}
+
+.shade {
+  border-radius: 10px;
+  background-color: #1F4060;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* material-components-web overrides */

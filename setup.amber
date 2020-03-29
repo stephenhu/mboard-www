@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  div.mdc-layout-grid
+    div.mdc-layout-grid__inner
+      div.mdc-layout-grid__cell--span-1.mdc-layout-grid__cell--align-middle
+      div.mdc-layout-grid__cell--span-5.mdc-layout-grid__cell--align-middle
+        br
+        br
+        h3 mboard
+        h4.light-blue Digital scoreboard
+      div.mdc-layout-grid__cell--span-6.mdc-layout-grid__cell--align-middle
+        br
+        br
+        img[src="mboard-www/qr.png"]
+  script
+    subscriber();

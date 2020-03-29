@@ -1,0 +1,6 @@
+extends teal-layout
+
+block content
+  import common-score
+  script
+    subscriber();

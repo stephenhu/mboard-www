@@ -1,0 +1,32 @@
+div.mdc-layout-grid
+  div.mdc-layout-grid__inner
+    div.mdc-layout-grid__cell--span-6.shade
+      h1.primary.align-center[id="awayScore"] 99
+    div.mdc-layout-grid__cell--span-6.shade
+      h1.primary.align-center[id="homeScore"] 108
+  br
+  div.mdc-layout-grid__inner
+    div.mdc-layout-grid__cell--span-6.possession[id="awayPos"]
+      h4.secondary.align-center[id="awayTeam"] Warriors
+        span.fa.fa-photo[id="awayLogo"]
+    div.mdc-layout-grid__cell--span-6.shade[id="homePos"]
+      h4.primary-light.align-center[id="homeTeam"] Cavaliers
+        span.fa.fa-photo[id="homeLogo"]
+  br
+  div.mdc-layout-grid__inner
+    div.mdc-layout-grid__cell--span-1.shade
+      h3.align-center F
+    div.mdc-layout-grid__cell--span-2.shade
+      h3.align-center.primary[id="awayFoul"] 8
+    div.mdc-layout-grid__cell--span-1.shade
+      h3.align-center T
+    div.mdc-layout-grid__cell--span-2.shade
+      h3.align-center.primary[id="awayTimeouts"] 1
+    div.mdc-layout-grid__cell--span-1.shade
+      h3.align-center F
+    div.mdc-layout-grid__cell--span-2.shade
+      h3.align-center.primary[id="homeFoul"] 3
+    div.mdc-layout-grid__cell--span-1.shade
+      h3.align-center T
+    div.mdc-layout-grid__cell--span-2.shade
+      h3.align-center.primary[id="homeTimeouts"] 3

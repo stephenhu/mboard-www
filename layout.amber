@@ -1,0 +1,16 @@
+doctype 5
+html.mdc-typography[lang="en"]
+  head
+    meta[charset="utf-8"]
+    meta(name="description"][content="Digital scoreboard"]
+    title mboard
+    link[rel="stylesheet"][href="/mboard-www/material-components-web/material-components-web.min.css"]
+    link[rel="stylesheet"][href="/mboard-www/font-awesome/font-awesome.min.css"]
+    link[rel="stylesheet"][href="/mboard-www/css/mboard.css"]
+    script[src="/mboard-www/js/config.js"]
+    script[src="/mboard-www/js/mboard.js"]
+  body.mdc-typography
+    block content
+    script[src="/mboard-www/material-components-web/material-components-web.min.js"]
+    script
+      mdc.autoInit()

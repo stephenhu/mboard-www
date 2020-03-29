@@ -1,0 +1,5 @@
+header.mdc-toolbar
+  div.mdc-toolbar__row
+    section.mdc-toolbar__section
+      span.mdc-toolbar__title mboard
+        small 10

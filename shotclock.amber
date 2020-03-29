@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.mdc-layout-grid
+    div.mdc-layout-grid__inner
+      div.mdc-layout-grid__cell--span-12.mdc-layout-grid__cell--align-middle.shade
+        h1.align-center.primary[id="shotClock"] 24
+  script
+    subscriber();

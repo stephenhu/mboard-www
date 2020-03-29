@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  video[autoplay="true"][src=video]
+  script
+    subscriber();
